@@ -1,1 +1,33 @@
+# Node.js dependencies
+/node_modules/
+
+# Python virtual environments
+/.env
+/venv/
 env
+# Build directories
+/build/
+/dist/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# IDE files
+/.vscode/
+/.idea/
+
+# Docker files (if not needed in version control)
+*.env
+
+# Coverage reports
+/coverage/
+
+# Specific to Electron app (if you're using it)
+/electron/.cache/
+
+# Miscellaneous
+*.sqlite3
